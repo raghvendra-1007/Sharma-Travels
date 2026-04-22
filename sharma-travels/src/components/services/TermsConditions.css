@@ -1,0 +1,31 @@
+.terms {
+  padding: 80px 0;
+  background: var(--bg);
+}
+
+.terms h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.terms-content {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.terms-content p {
+  margin-bottom: 15px;
+  color: var(--light-text);
+}
+
+.terms-content ul {
+  padding-left: 20px;
+}
+
+.terms-content li {
+  margin-bottom: 10px;
+}
