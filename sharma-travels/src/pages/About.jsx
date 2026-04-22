@@ -7,6 +7,7 @@ import CompanyInfo from '../components/about/CompanyInfo'
 import StatsSection from '../components/about/StatsSection'
 import CitiesSection from '../components/about/CitiesSection'
 import DriversInfo from '../components/about/DriversInfo'
+import RefundPolicy from '../components/about/RefundPolicy'
 
 function About() {
   return (
@@ -22,6 +23,8 @@ function About() {
       <CitiesSection />
 
       <DriversInfo />
+
+      <RefundPolicy />
 
       <Footer />
       <WhatsAppButton />
