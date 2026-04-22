@@ -1,0 +1,18 @@
+.cities {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.city-list {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.city-list span {
+  background: var(--primary);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+}

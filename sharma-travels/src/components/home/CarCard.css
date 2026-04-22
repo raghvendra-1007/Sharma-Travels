@@ -1,0 +1,44 @@
+.car-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+/* Card */
+.car-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.car-card:hover {
+  transform: translateY(-8px);
+}
+
+/* Image */
+.car-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Info */
+.car-info {
+  padding: 20px;
+}
+
+.car-info h3 {
+  margin-bottom: 10px;
+}
+
+.car-info p {
+  font-size: 14px;
+  color: var(--light-text);
+}
+
+.car-info h4 {
+  margin-top: 10px;
+  color: var(--primary);
+}

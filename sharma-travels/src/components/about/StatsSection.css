@@ -1,0 +1,12 @@
+.stats {
+  background: var(--primary);
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}

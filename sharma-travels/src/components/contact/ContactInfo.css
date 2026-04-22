@@ -1,0 +1,28 @@
+.contact-info {
+  padding: 80px 0;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  text-align: center;
+}
+
+.info-card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.info-card:hover {
+  transform: translateY(-8px);
+}
+
+.info-card svg {
+  font-size: 30px;
+  color: var(--primary);
+  margin-bottom: 10px;
+}

@@ -1,0 +1,59 @@
+@import './variables.css';
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  color: #222;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+.btn {
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+/* Primary Button */
+.btn.primary {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.btn.primary:hover {
+  background-color: #092f6b;
+}
+
+/* Secondary Button */
+.btn.secondary {
+  background-color: var(--secondary);
+  color: black;
+}

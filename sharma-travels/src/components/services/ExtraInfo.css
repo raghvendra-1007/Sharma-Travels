@@ -1,0 +1,12 @@
+.extra-info {
+  padding: 60px 0;
+  background: var(--primary);
+  color: white;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  text-align: center;
+}
