@@ -1,0 +1,35 @@
+.refund {
+  padding: 80px 0;
+  background: var(--bg);
+}
+
+.refund h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Content Box */
+.refund-content {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* Text */
+.refund-content p {
+  margin-bottom: 15px;
+  color: var(--light-text);
+}
+
+/* List */
+.refund-content ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.refund-content li {
+  margin-bottom: 10px;
+}
