@@ -5,6 +5,8 @@ import WhatsAppButton from '../components/contact/WhatsAppButton'
 import ContactHero from '../components/contact/ContactHero'
 import ContactInfo from '../components/contact/ContactInfo'
 import ContactForm from '../components/contact/ContactForm'
+import PrivacyPolicy from '../components/contact/PrivacyPolicy'
+
 
 function Contact() {
   return (
@@ -16,6 +18,8 @@ function Contact() {
       <ContactInfo />
 
       <ContactForm />
+
+      <PrivacyPolicy />
 
       <Footer />
       <WhatsAppButton />
